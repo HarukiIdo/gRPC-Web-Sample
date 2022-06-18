@@ -32,8 +32,8 @@ export class GreeterPromiseClient {
     metadata?: grpcWeb.Metadata
   ): Promise<proto_helloworld_pb.HelloReply>;
 
-  sayRepeatHello(
-    request: proto_helloworld_pb.RepeatHelloRequest,
+  sayRepatHello(
+    requeest: proto_helloworld_pb.RepeatHelloRequest,
     metadata?: grpcWeb.Metadata
   ): grpcWeb.ClientReadableStream<proto_helloworld_pb.HelloReply>;
 
